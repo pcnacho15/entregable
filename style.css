@@ -816,14 +816,14 @@ section {
 --------------------------------------------------------------*/
 .cta {
   background: linear-gradient(rgba(90, 85, 40, 0.5), rgba(90, 87, 40, 0.5)),
-    url("assets/img/img1.jpeg") fixed center center;
+    url("/entregable/assets/img/img1.jpeg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
 
 .cta1 {
   background: linear-gradient(rgba(90, 85, 40, 0.5), rgba(90, 87, 40, 0.5)),
-    url("assets/img/img4.jpeg") fixed center center;
+    url("/entregable/assets/img/img4.jpeg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
