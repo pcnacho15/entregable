@@ -1,3 +1,10 @@
+import './public/assets/vendor/bootstrap/css/bootstrap.min.css';
+import './public/assets/vendor/icofont/icofont.min.css';
+import './public/assets/vendor/boxicons/css/boxicons.min.css';
+import './public/assets/vendor/remixicon/remixicon.css';
+import './public/assets/vendor/venobox/venobox.css';
+import './public/assets/vendor/owl.carousel/assets/owl.carousel.min.css';
+import './public/assets/vendor/aos/aos.css';
 import './style.css'
 
 
