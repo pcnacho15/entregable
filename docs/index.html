@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Max ahorro</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="/assets/logo-6-UuKhmc.png" rel="icon" />
+    <link
+      href="data:image/png;base64,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"
+      rel="apple-touch-icon"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+
+    <!-- Template Main CSS File -->
+    <link href="./public/assets/css/style.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: Arsha - v2.2.0
+  * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+    <script type="module" crossorigin src="/assets/index-GOeMbzPk.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-_cMi93X7.css">
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center">
+        <h1 class="logo mr-auto">
+          <a href="index.html">
+            <img src="/assets/logo-6-UuKhmc.png" alt="" />
+          </a>
+        </h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo mr-auto"><img src="./public/assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+        <nav class="nav-menu d-none d-lg-block">
+          <ul>
+            <li class="active"><a href="index.html">Inicio</a></li>
+            <li><a href="#about">Sobre nosotros</a></li>
+            <li><a href="#seleccion">Selección</a></li>
+            <li><a href="#vinculacion">Vinculación</a></li>
+            <li><a href="#servicio">Servicio al cliente</a></li>
+            <li><a href="#induccion">Inducción</a></li>
+            <li><a href="#sistemas">Sistemas de información</a></li>
+          </ul>
+        </nav>
+        <!-- .nav-menu -->
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <h1>¡Bienvenidos!</h1>
+            <h2>
+              ¡Bienvenido(a) a nuestro rincón digital! En Max Ahorro, te damos
+              la más cordial bienvenida a un espacio diseñado para informar y
+              conectar. Explora nuestras secciones, sumérgete en contenido
+              fascinante y descubre recursos que enriquecerán tu experiencia.
+            </h2>
+            <div class="d-lg-flex">
+              <a
+                href="https://youtu.be/aJB53ALPiYU"
+                class="venobox btn-watch-video"
+                data-vbtype="video"
+                data-autoplay="true"
+              >
+                Ver video de introducción <i class="icofont-play-alt-2"></i
+              ></a>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 order-1 order-lg-2 hero-img"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+          >
+            <img
+              src="/assets/logo-6-UuKhmc.png"
+              class="img-fluid animated"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= Cta Section ======= -->
+      <section id="cta" class="cta1">
+        <div class="container" data-aos="zoom-in">
+          <div class="row"></div>
+        </div>
+      </section>
+      <!-- End Cta Section -->
+
+      <!-- ======= About Us Section ======= -->
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Sobre nosotros</h2>
+          </div>
+
+          <div class="row content">
+            <div class="col-lg-12 pt-4 pt-lg-0">
+              <p>
+                Max Ahorro es un supermercado ubicado en el barrio Manrique
+                Oriental que ofrece una experiencia de calidad y ahorro con
+                precios de locura a todos sus clientes. Reseña Historica En el
+                año 2013 comenzamos con 5 colaboradores y un área total de 120
+                m2 y solo se prestaba servicio de supermercado, carnicería y
+                legumbreria. En el 2022 comenzamos con el proyecto de sistema de
+                gestión de calidad y confirmación de equipo líderes. En el 2023
+                contamos con más de 40 colaboradores, un area total de 1.500 m2
+                con una buena cultura organizacional y un sistema de
+                administración.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Us Section -->
+
+      <!-- ======= v Section ======= -->
+      <section id="why-us" class="why-us section-bg">
+        <div class="container-fluid" data-aos="fade-up">
+          <div class="row">
+            <div
+              class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch order-2 order-lg-1"
+            >
+              <div class="content">
+                <h3>
+                  En Max Ahorros, estamos dedicados a cumplir nuestra misión y
+                  visión
+                </h3>
+              </div>
+
+              <div class="accordion-list">
+                <ul>
+                  <li>
+                    <a
+                      data-toggle="collapse"
+                      class="collapse"
+                      href="#accordion-list-1"
+                      >Mision<i class="bx bx-chevron-down icon-show"></i
+                      ><i class="bx bx-chevron-up icon-close"></i
+                    ></a>
+                    <div
+                      id="accordion-list-1"
+                      class="collapse show"
+                      data-parent=".accordion-list"
+                    >
+                      <p>
+                        Nuestra misión es ofrecer a nuestros clientes una
+                        experiencia de compra excepcional, brindando productos
+                        de calidad, variedad y precios competitivos. Nos
+                        comprometemos a satisfacer las necesidades de nuestros
+                        clientes, promoviendo la alimentación saludable y el
+                        bienestar. Buscamos ser un referente en servicio al
+                        cliente, innovación y sostenibilidad, generando un
+                        impacto positivo en nuestra comunidad y en el desarrollo
+                        de nuestro equipo de colaboradores.
+                      </p>
+                    </div>
+                  </li>
+
+                  <li>
+                    <a
+                      data-toggle="collapse"
+                      href="#accordion-list-2"
+                      class="collapsed"
+                      >Vision<i class="bx bx-chevron-down icon-show"></i
+                      ><i class="bx bx-chevron-up icon-close"></i
+                    ></a>
+                    <div
+                      id="accordion-list-2"
+                      class="collapse"
+                      data-parent=".accordion-list"
+                    >
+                      <p>
+                        Nuestra visión es convertirnos en el supermercado líder
+                        en el barrio Manrique, reconocido por ofrecer la mejor
+                        experiencia de compra a nuestros clientes. Queremos ser
+                        reconocidos por nuestra calidad y variedad, así como por
+                        nuestro compromiso con la sostenibilidad y la
+                        responsabilidad social. Buscamos ser un referente en
+                        innovación y servicio al cliente, generando un impacto
+                        positivo en la vida de las personas y contribuyendo al
+                        desarrollo de nuestra comunidad, generando una variedad
+                        de productos a través de la eficiencia de nuestro
+                        desarrollo económico.
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-5 align-items-stretch order-1 order-lg-2 img"
+              style="background-image: url('/assets/img1-xtGZP_zG.jpeg')"
+              data-aos="zoom-in"
+              data-aos-delay="150"
+            >
+              &nbsp;
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Why Us Section -->
+
+      <!-- ======= Skills Section ======= -->
+      <!-- <section id="skills" class="services section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Services</h2>
+          </div>
+
+          <div class="row align-items">
+            <div
+              class="col-xl-3 col-md-6 d-flex align-items-stretch"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <div class="icon-box">
+                <div class="icon">
+                  <img
+                    src="./public/assets/img/img1.jpeg"
+                    width="200"
+                    height="200"
+                    alt=""
+                    srcset=""
+                  />
+                </div>
+                <h4><a href="">Nuestra sede</a></h4>
+                <p>
+                  Nuestra sede, ubicada en el barrio Manrique en la ciudad de Medellín, es un espacio donde encontrarás productos de alta calidad a precios muy accesibles para la economía de nuestros clientes
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <div class="icon-box">
+                <div class="icon"><img src="./public/assets/img/img2.jpeg" width="200" height="200" alt="" srcset=""></div>
+                <h4><a href="">Nuestras promociones</a></h4>
+                <p>
+                  En fechas especiales como nuestros aniversarios, lo celebramos por todo lo alto con promociones de locura para todos nuestros clientes.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="icon-box">
+                <div class="icon"><img src="./public/assets/img/img3.jpeg" width="200" height="200" alt="" srcset=""></i></div>
+                <h4><a href="">Nuestros clientes</a></h4>
+                <p>
+                  Max Ahorro es un supermercado que constantemente busca premiar la fidelidad de sus clientes con productos como electrodomésticos para el hogar, en forma de agradecimiento por su lealtad.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- End Skills Section -->
+
+      <!-- ======= Selección Section ======= -->
+      <section id="seleccion" class="services section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Proceso De Selección</h2>
+            <p>
+              En esta sección Max Ahorro te hará conocer <br />
+              como llevan a cabo su proceso de selección de candidatos
+            </p>
+          </div>
+
+          <div class="row">
+            <div
+              class="col-xl-3 col-md-6 d-flex align-items-stretch mb-3"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4>
+                  <a
+                    target="_blank"
+                    href="https://docs.google.com/document/d/1j0xVSC_66lkVXDysjYm3MmAfc_CexKq0/edit?usp=sharing&ouid=107563159684059448786&rtpof=true&sd=true"
+                    >Requisición de personal</a
+                  >
+                </h4>
+                <p>
+                  Documento utilizado por una organización para solicitar la
+                  contratación de nuevos empleados. Contiene información sobre
+                  el perfil del puesto, requisitos y justificación para la
+                  contratación.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mb-3 mt-md-0"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4>
+                  <a
+                    target="_blank"
+                    href="https://drive.google.com/file/d/1j1xEbIgaJxteBjlhWmV6TxY2kXqkznwN/view?usp=sharing"
+                    >Vacante</a
+                  >
+                </h4>
+                <p>
+                  Posición de trabajo dentro de una empresa que está sin cubrir
+                  y disponible para ser ocupada por un nuevo empleado.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mb-3 mt-xl-0"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4>
+                  <a
+                    target="_blank"
+                    href="https://drive.google.com/file/d/11buqvDfHnpNhHvXLxlviEjoG_QsqyhhR/view?usp=drive_link"
+                    >Base de datos de hojas de vida</a
+                  >
+                </h4>
+                <p>
+                  Repositorio electrónico que almacena información curricular de
+                  candidatos, facilitando la gestión y búsqueda de perfiles para
+                  procesos de selección de personal.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0 mb-3"
+              data-aos="zoom-in"
+              data-aos-delay="400"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4>
+                  <a
+                    target="_blank"
+                    href="https://docs.google.com/document/d/1j7deLbdouc-_CpwpWZcuefY3UB0JjRk4/edit?usp=drive_link&ouid=107563159684059448786&rtpof=true&sd=true"
+                    >Antecedentes y referencias</a
+                  >
+                </h4>
+                <p>
+                  Verificación de la historia laboral y personal de un
+                  candidato, así como la recopilación de referencias
+                  profesionales para evaluar su idoneidad para un puesto.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mb-3 mt-xl-0"
+              data-aos="zoom-in"
+              data-aos-delay="400"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4>
+                  <a
+                    target="_blank"
+                    href="https://docs.google.com/document/d/1KLrhG8wPGVTRtuXvy3LYB1r-1FK4k0mW/edit?usp=drive_link&ouid=107563159684059448786&rtpof=true&sd=true"
+                    >Guión pre entrevista</a
+                  >
+                </h4>
+                <p>
+                  Lista de preguntas y temas a tratar antes de la entrevista
+                  principal, diseñada para obtener información básica y
+                  contextual sobre el candidato.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mb-3 mt-xl-0"
+              data-aos="zoom-in"
+              data-aos-delay="400"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4>
+                  <a
+                    target="_blank"
+                    href="https://docs.google.com/document/d/1PDAV68Fj4bOqSYab3c-MC1ZglE-ndCEH/edit?usp=drive_link&ouid=107563159684059448786&rtpof=true&sd=true"
+                    >Carta de agradecimiento</a
+                  >
+                </h4>
+                <p>
+                  Mensaje formal enviado por un candidato después de una
+                  entrevista, expresando gratitud por la oportunidad y
+                  reiterando el interés en el puesto.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mb-3 mt-xl-0"
+              data-aos="zoom-in"
+              data-aos-delay="400"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4>
+                  <a
+                    target="_blank"
+                    href="https://docs.google.com/document/d/1f1x4K6mLq3jB4NSjT46XMtPliZWk7ax5/edit?usp=drive_link&ouid=107563159684059448786&rtpof=true&sd=true"
+                    >Guión entrevista mixta</a
+                  >
+                </h4>
+                <p>
+                  Estructura que combina preguntas conductuales y situacionales
+                  en una entrevista de trabajo para evaluar tanto habilidades
+                  técnicas como competencias personales.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mb-3 mt-xl-0"
+              data-aos="zoom-in"
+              data-aos-delay="400"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4>
+                  <a
+                    target="_blank"
+                    href="https://drive.google.com/file/d/1CtNaPNfbhrhi0At0jWm1vjXMxH5H3li7/view?usp=drive_link"
+                    >Prueba 16PF</a
+                  >
+                </h4>
+                <p>
+                  Test de personalidad que evalúa 16 factores de la
+                  personalidad, proporcionando información detallada sobre las
+                  características psicológicas de un individuo. Se utiliza en
+                  procesos de evaluación psicométrica en el ámbito laboral.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Selección Section -->
+
+      <!-- ======= Cta Section ======= -->
+      <section id="cta" class="cta">
+        <div class="container" data-aos="zoom-in">
+          <div class="row"></div>
+        </div>
+      </section>
+      <!-- End Cta Section -->
+
+      <!-- ======= Vinculación Section ======= -->
+      <section id="vinculacion" class="services section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Proceso De Vinculación</h2>
+            <p>
+              En Max Ahorro la vinculación se refiere al proceso de integrar a
+              nuevos empleados en la empresa. Esto implica desde la
+              contratación, la orientación y la adaptación a la cultura
+              organizacional, hasta el establecimiento de conexiones y el
+              desarrollo continuo para asegurar una transición efectiva y una
+              participación exitosa en el equipo de trabajo.
+            </p>
+          </div>
+
+          <div class="row">
+            <div
+              class="col-xl-3 col-md-6 d-flex align-items-stretch mb-3"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4>
+                  <a
+                    target="_blank"
+                    href="https://docs.google.com/document/d/1LPDwzGo9rFgZnMrReXQSJNNzBXJpP1qE/edit?usp=drive_link&ouid=107563159684059448786&rtpof=true&sd=true"
+                    >Contrato término indefinido</a
+                  >
+                </h4>
+                <p>
+                  Acuerdo legal entre un empleador y un empleado que establece
+                  los términos y condiciones de la relación laboral, incluyendo
+                  detalles sobre salario, horario, responsabilidades y otros
+                  aspectos relevantes.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-xl-3 col-md-6 d-flex align-items-stretch mb-3"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4>
+                  <a
+                    target="_blank"
+                    href="https://docs.google.com/document/d/1xBXQmuVk555A8w-Pw5KMjJtlTd06Ut9J/edit?usp=drive_link&ouid=107563159684059448786&rtpof=true&sd=true"
+                    >Contrato término fijo</a
+                  >
+                </h4>
+                <p>
+                  Acuerdo legal entre un empleador y un empleado que establece
+                  los términos y condiciones de la relación laboral, incluyendo
+                  detalles sobre salario, horario, responsabilidades y otros
+                  aspectos relevantes.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mb-3 mt-md-0"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4><a href="">Base de datos</a></h4>
+                <p>
+                  Sistema organizado de almacenamiento de información que
+                  permite la gestión eficiente de datos sobre el personal de la
+                  empresa.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mb-3 mt-xl-0"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4>
+                  <a
+                    target="_blank"
+                    href="https://docs.google.com/document/d/1jB8IGcpDykgrcvByIaSzy7vAClCIRYdT/edit?usp=drive_link&ouid=107563159684059448786&rtpof=true&sd=true"
+                    >Constancia de entrega de dotación</a
+                  >
+                </h4>
+                <p>
+                  Documento que certifica la entrega de los elementos necesarios
+                  para el desempeño de un trabajo, como uniformes, herramientas
+                  o cualquier otro tipo de dotación proporcionada por el
+                  empleador al empleado.
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mb-3 mt-xl-0"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4>
+                  <a
+                    target="_blank"
+                    href="https://docs.google.com/document/d/1jHRaC6BMxRm9w40XwAAgMPRQ14O3V_Y1/edit?usp=drive_link&ouid=107563159684059448786&rtpof=true&sd=true"
+                    >Lista de documentos para la contratación</a
+                  >
+                </h4>
+                <p>
+                  Registro detallado de los documentos y formularios requeridos
+                  para formalizar la contratación de un nuevo empleado.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Vinculación Section -->
+
+      <!-- ======= Servicio al cliente Section ======= -->
+
+      <section id="servicio" class="services section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Servicio al cliente interno</h2>
+            <p>
+              se centra en proporcionar un nivel de atención y soporte de alta
+              calidad dentro de la organización, donde los "clientes internos"
+              son los propios empleados.
+            </p>
+          </div>
+
+          <div class="row">
+            <div
+              class="col-xl-6 col-md-6 d-flex align-items-center mb-3"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4>
+                  <a
+                    target="_blank"
+                    href="https://docs.google.com/spreadsheets/d/1jL3zNrggim1q7D-EDyaCZxsBRu71ANM0/edit?usp=drive_link&ouid=107563159684059448786&rtpof=true&sd=true"
+                    >Formato PQRSFD</a
+                  >
+                </h4>
+                <p>
+                  Un formato PQRSFD es un documento estandarizado utilizado para
+                  recopilar información relacionada con Peticiones, Quejas,
+                  Reclamos, Sugerencias, Felicitaciones o Denuncias.
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-xl-6 col-md-6 d-flex align-items-center mb-3"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4>
+                  <a
+                    target="_blank"
+                    href="https://docs.google.com/document/d/1dIo3Z557zcGYyxGDYRaTIX-u7GbwIQNs/edit?usp=drive_link&ouid=107563159684059448786&rtpof=true&sd=true"
+                    >Protocolo de servicio al cliente interno</a
+                  >
+                </h4>
+                <p>
+                  El protocolo de servicio al cliente interno es una guía que
+                  establece expectativas y prácticas para promover la
+                  comunicación efectiva, el respeto mutuo, la colaboración y un
+                  ambiente de trabajo positivo entre los empleados dentro de una
+                  organización.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Servicio al cliente Section -->
+
+      <!-- ======= Inducción Section ======= -->
+      <section id="induccion" class="pricing">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Inducción</h2>
+            <p>
+              Es un proceso que integra a nuevos empleados en la organización,
+              proporcionándoles información clave sobre la empresa, sus
+              políticas, cultura y funciones. El objetivo es facilitar una
+              transición suave y eficiente, permitiendo que los empleados
+              comprendan su rol y contribuyan de manera efectiva desde el
+              inicio.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="box">
+                <h3>Plan de Inducción Cronograma</h3>
+                <p>
+                  Documento que detalla las actividades y eventos planificados
+                  para la inducción de nuevos empleados durante un período
+                  específico. Incluye fechas, horarios y descripciones de las
+                  sesiones de orientación.
+                </p>
+                <a
+                  target="_blank"
+                  href="https://docs.google.com/document/d/17z2H1wVMeglHyB10VpCqEsRXd3_FuBst/edit?usp=drive_link&ouid=107563159684059448786&rtpof=true&sd=true"
+                  class="buy-btn mt-2"
+                  >Ver más</a
+                >
+              </div>
+            </div>
+            <div
+              class="col-lg-4 mt-4 mt-lg-0 mb-4"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="box">
+                <h3>Lista de asistencia</h3>
+                <p>
+                  Registro que documenta la presencia de los empleados en las
+                  sesiones de inducción. Permite hacer un seguimiento preciso de
+                  quiénes han participado en las actividades programadas.
+                </p>
+                <a
+                  target="_blank"
+                  href="https://docs.google.com/document/d/1Ny0w60IJ-XbWfC52BBCuJLeeNvmHqED0/edit?usp=drive_link&ouid=107563159684059448786&rtpof=true&sd=true"
+                  class="buy-btn mt-2"
+                  >Ver más</a
+                >
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 mt-4 mt-lg-0 mb-4"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="box">
+                <h3>Evaluación de la inducción</h3>
+                <p>
+                  Instrumento utilizado para evaluar la efectividad del programa
+                  de inducción. Puede incluir preguntas sobre la comprensión de
+                  la información presentada, la satisfacción del empleado y
+                  sugerencias para mejoras.
+                </p>
+                <a href="#" class="buy-btn mt-2">Ver más</a>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 mt-4 mt-lg-0 mb-4"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="box">
+                <h3>Certificado de inducción</h3>
+                <p>
+                  Documento que certifica la participación exitosa de un
+                  empleado en el programa de inducción. Puede incluir detalles
+                  como la duración del programa y las habilidades o
+                  conocimientos adquiridos durante el proceso de orientación.
+                </p>
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1jJ3Lilt-UUFNeS1v9dvWBgerbKr4stLt/view?usp=drive_link"
+                  class="buy-btn mt-2"
+                  >Ver más</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Inducción Section -->
+
+      <!-- ======= Sistemas de información Section ======= -->
+
+      <section id="sistemas" class="services section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Sistemas de información</h2>
+            <p>
+              se centra en proporcionar un nivel de atención y soporte de alta
+              calidad dentro de la organización, donde los "clientes internos"
+              son los propios empleados.
+            </p>
+          </div>
+
+          <div class="row">
+            <div
+              class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mb-3 mt-xl-0"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4>
+                  <a
+                    target="_blank"
+                    href="https://docs.google.com/document/d/1n32_WAvldTWyhxq0d5bPNlCxUV532gQS/edit?usp=sharing&ouid=107563159684059448786&rtpof=true&sd=true"
+                    >Acta de reunión</a
+                  >
+                </h4>
+                <p>
+                  Documento que resume los puntos clave discutidos, decisiones
+                  tomadas y acciones acordadas durante una reunión. Sirve como
+                  registro oficial de lo tratado.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mb-3 mt-xl-0"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4>
+                  <a
+                    target="_blank"
+                    href="https://docs.google.com/document/d/1vKs23WsEeiSOpBI_WheEbx1AhN6bvzRh/edit?usp=sharing&ouid=107563159684059448786&rtpof=true&sd=true"
+                    >Acta de terminación de contrato</a
+                  >
+                </h4>
+                <p>
+                  Registro formal que documenta los términos y condiciones bajo
+                  los cuales se ha finalizado un contrato laboral, incluyendo
+                  razones y acuerdos específicos.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mb-3 mt-xl-0"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4>
+                  <a
+                    target="_blank"
+                    href="https://docs.google.com/document/d/1lEdIJdzMO_YkxOxHu1JDyVfPBbyzoBIB/edit?usp=sharing&ouid=107563159684059448786&rtpof=true&sd=true"
+                    >Constancia Laboral</a
+                  >
+                </h4>
+                <p>
+                  Certificación emitida por un empleador que confirma la
+                  relación laboral de un empleado, indicando la duración del
+                  empleo, cargo y cualquier otro detalle relevante.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mb-3 mt-xl-0"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4>
+                  <a
+                    target="_blank"
+                    href="https://docs.google.com/document/d/1W5AdKs6DSHY1criNeuSNHqPTUhsQgw7h/edit?usp=sharing&ouid=107563159684059448786&rtpof=true&sd=true"
+                    >Modelo de llamado de atención o memorando</a
+                  >
+                </h4>
+                <p>
+                  Comunicado interno utilizado para transmitir información
+                  oficial dentro de una organización. Puede contener anuncios,
+                  instrucciones o actualizaciones sobre políticas.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mb-3 mt-xl-0"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4>
+                  <a
+                    target="_blank"
+                    href="https://docs.google.com/document/d/15v--2DQmrzd1U47UGjROKEceQzZGhjPI/edit?usp=sharing&ouid=107563159684059448786&rtpof=true&sd=true"
+                    >Pre aviso de terminación de contrato</a
+                  >
+                </h4>
+                <p>
+                  Comunicación formal por parte del empleador o empleado que
+                  notifica con anticipación la intención de terminar un contrato
+                  laboral. Suele incluir detalles sobre la fecha de término y
+                  las razones.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mb-3 mt-xl-0"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4><a href="">Plantilla de informe</a></h4>
+                <p>
+                  Formato estructurado para la creación de informes, que
+                  proporciona secciones predefinidas para el título, resumen,
+                  metodología, hallazgos y conclusiones, facilitando la
+                  presentación organizada de información.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- End Sistemas de información Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Ubicación</h2>
+            <p>
+              Nuestra sede, ubicada en el barrio Manrique en la ciudad de
+              Medellín, es un espacio donde encontrarás productos de alta
+              calidad a precios muy accesibles para la economía de nuestros
+              clientes
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12 d-flex align-items-stretch">
+              <div class="info">
+                <div class="address">
+                  <i class="icofont-google-map"></i>
+                  <h4>Locación:</h4>
+                  <p>
+                    Cra. 33 #71-50, El Raizal, Medellín, Manrique, Medellín,
+                    Antioquia
+                  </p>
+                </div>
+
+                <div class="phone">
+                  <i class="icofont-phone"></i>
+                  <h4>Llámanos:</h4>
+                  <p>44483570</p>
+                </div>
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.982538520995!2d-75.54816712511965!3d6.266026393722635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442895d379f7a3%3A0x59525690ab51c681!2sSupermercado%20Max%20Ahorro!5e0!3m2!1ses-419!2sco!4v1701029678774!5m2!1ses-419!2sco"
+                  style="border: 0; width: 100%; height: 290px"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+
+      <section id="integrantes" class="team">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Integrantes</h2>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6">
+              <div
+                class="member d-flex align-items-start"
+                data-aos="zoom-in"
+                data-aos-delay="100"
+              >
+                <div class="pic">
+                  <img
+                    src="/assets/img1-PUsKJU7L.jpeg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Yileni Martinez</h4>
+                  <span>Recursos humanos - SENA</span>
+                  <p>Estudiante de la técnica en recursos humanos</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 mt-4 mt-lg-0">
+              <div
+                class="member d-flex align-items-start"
+                data-aos="zoom-in"
+                data-aos-delay="200"
+              >
+                <div class="pic">
+                  <img
+                    src="/assets/img2-mqwmYVRd.jpeg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Itze Gómez</h4>
+                  <span>Recursos humanos - SENA</span>
+                  <p>Estudiante de la técnica en recursos humanos</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 mt-4">
+              <div
+                class="member d-flex align-items-start"
+                data-aos="zoom-in"
+                data-aos-delay="300"
+              >
+                <div class="pic">
+                  <img
+                    src="/assets/img3-Z1p0DZPX.jpeg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Ana Sofía Gonzalez</h4>
+                  <span>Recursos humanos - SENA</span>
+                  <p>Estudiante de la técnica en recursos humanos</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row"></div>
+        </div>
+      </div>
+
+      <div class="container footer-bottom clearfix">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Max Ahorro</span></strong
+          >. Todos los derechos reservados
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="./public/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="./public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./public/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="./public/assets/vendor/php-email-form/validate.js"></script>
+    <script src="./public/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="./public/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="./public/assets/vendor/venobox/venobox.min.js"></script>
+    <script src="./public/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="./public/assets/vendor/aos/aos.js"></script>
+
+    <!-- Template Main JS File -->
+  </body>
+</html>
