@@ -30486,8 +30486,8 @@ section {
 }
 .portfolio .portfolio-item .portfolio-info .preview-link,
 .portfolio .portfolio-item .portfolio-info .details-link {
-  position: absolute;
-  right: 40px;
+  position: relative;
+  right: -10px;
   font-size: 24px;
   top: calc(50% - 18px);
   color: #fff;
