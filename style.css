@@ -823,7 +823,42 @@ section {
 
 .cta1 {
   background: linear-gradient(rgba(90, 85, 40, 0.5), rgba(90, 87, 40, 0.5)),
-    url("/entregable/assets/img/img4.jpeg") fixed center center;
+    url("/entregable/assets/img/induccion.jpg") fixed center center;
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.ctaS {
+  background: linear-gradient(rgba(90, 85, 40, 0.5), rgba(90, 87, 40, 0.5)),
+    url("/entregable/assets/img/seleccion.jpg") fixed center center;
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.ctaV {
+  background: linear-gradient(rgba(90, 85, 40, 0.5), rgba(90, 87, 40, 0.5)),
+    url("/entregable/assets/img/vinculacion.jpg") fixed center center;
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.ctaSe {
+  background: linear-gradient(rgba(90, 85, 40, 0.5), rgba(90, 87, 40, 0.5)),
+    url("/entregable/assets/img/servicio-cliente.png") fixed center center;
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.ctaI {
+  background: linear-gradient(rgba(90, 85, 40, 0.5), rgba(90, 87, 40, 0.5)),
+    url("/entregable/assets/img/induccion.jpg") fixed center center;
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.ctaSI {
+  background: linear-gradient(rgba(90, 85, 40, 0.5), rgba(90, 87, 40, 0.5)),
+    url("/entregable/assets/img/sistemas-informacion.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
